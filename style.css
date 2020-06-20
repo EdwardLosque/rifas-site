@@ -1,0 +1,564 @@
+#banner{
+    background-image: url("img/patrick-tomasso-CP1cKFIl7qc-unsplash.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner .row{
+    min-height: 600px;
+}
+
+#banner h2{
+    color: white;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 8rem;
+}
+
+
+
+button{
+    cursor: pointer;
+}
+
+#banner button{
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 23px 60px;
+    font-size: 32px;
+    line-height: 37px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    transition: ease 0.5s all;
+
+}
+
+#banner button:hover{
+    background-color: white;
+    color: black;
+    padding: 23px 60px;
+    font-size: 32px;
+    line-height: 37px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#sorteios{
+    background-color: #000000;
+    color: white;
+    padding: 55px 0;
+}
+
+#sorteios *, #como-funciona *, #ganhadores *{
+    color: white;
+    text-align: center;   
+}
+
+#sorteios p, #como-funciona p, #proposito p, #ganhadores p{
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+}
+
+hr{
+    border-top: 2px solid white;
+    margin: 24px auto;
+    max-width: 115px;
+    display: block;
+}
+
+.row img{
+    max-width: 100%;
+    display: block;
+}
+
+#sorteios img, #como-funciona img{
+    margin-bottom: 32px;
+}
+
+#sorteios h3, #como-funciona h3, #proposito h3, #ganhadores h3{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+#sorteios h4, #como-funciona h4{
+    margin-bottom: 16px;
+}
+
+#sorteios span, #como-funciona span{
+    margin-bottom: 24px;
+    display: block;
+}
+
+#sorteios button, #como-funciona button{
+    border-radius: 5px;
+    background-color: #2EC66D;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 14px 42px;
+    border: none;
+    font-weight: bold;
+}
+
+#sorteios button.ended{
+    border-radius: 5px;
+    background-color: #FF0000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 14px 42px;
+    border: none;
+}
+
+#sorteios .col-12.col-lg-4{
+    margin-bottom: 5rem;
+}
+
+#como-funciona{
+    background-color: #272727;
+    padding: 55px 0;
+}
+
+#como-funciona .col-12.col-lg-4 .card{
+    background-color: white;
+    padding: 40px 34px;
+}
+
+#como-funciona .col-12.col-lg-4 *{
+    color: #000000;
+}
+
+#como-funciona p{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+#quem-somos h3{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+#quem-somos p{
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+}
+
+div#quem-somos, div#depoimentos{
+    background-color: white;
+}
+
+#proposito{
+    background-color: #272727;
+}
+
+#proposito *{
+    color: white;
+}
+
+#depoimentos h3{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+#depoimentos span.name{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+#depoimentos span.type{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    display: block;
+}
+
+#depoimentos span.win{
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+    display: block;
+}
+
+#depoimentos h4{
+    font-size: 32px;
+    color: black;
+    font-weight: 500;
+}
+
+#depoimentos p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #444444;
+    font-weight: 400;
+}
+
+hr.black{
+    border-top: 2px solid #272727;
+    max-width: 100%;
+}
+
+#info-produto, #fichas{
+    background-color: #272727;
+}
+
+span.card-number{
+    display: none;
+    width: 47px;
+    height: 47px;
+    font-size: 19px;
+    line-height: 47px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 6px;
+}
+
+
+.visible{
+    display: inline-block!important;
+}
+
+span.card-number.availiable{
+    background-color: black;
+    color: white;
+}
+
+span.card-number.reserved{
+    background-color: #F9A61A;
+    color: white;
+}
+
+span.card-number.paid{
+    background-color: #59BA41;
+    color: white;
+}
+
+span.card-number.my-numbers{
+    background-color: #F82222;
+    color: white;
+}
+
+#info-produto h1{
+    font-size: 32px;
+    line-height: 37px;
+    color: white;
+    font-family: "Raleway";
+    margin-bottom: 24px;
+}
+
+hr.product-line{
+    width: 100%!important;
+    color: white;
+    border-color: white;
+    max-width: 100%;
+}
+
+#info-produto span{
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 16px;
+    font-family: "Lato";
+    display: block;
+}
+
+img.ico-calendar{
+    float: left;
+    margin-right: 7px;
+}
+
+#info-produto span.link{
+    margin-top: 40px;
+}
+
+#info-produto .prices button{
+    background-color: #59BA41;
+    border-radius: 15px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: white;
+    padding: 12px 25px;
+    border: none;
+}
+
+hr.full{
+    margin: 4rem 0;
+    max-width: 100%!important;
+}
+
+body{
+    background-color: #272727;
+}
+
+#fichas button{
+    margin: 0 12px 10px;
+}
+
+#fichas button.all{
+    background-color: #272727;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: white;
+    padding: 12px 25px;
+}
+
+#fichas button.availiable{
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: #000000;
+    padding: 12px 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+#fichas button.reserved{
+    background-color: #F9A61A;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: #000000;
+    padding: 12px 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+#fichas button.paid{
+    background-color: #59BA41;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: #000000;
+    padding: 12px 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+#fichas button.my-numbers{
+    background-color: #F82222;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: #000000;
+    padding: 12px 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+#fichas .actions{
+    margin-bottom: 30px;
+}
+
+#pagamento h2{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+#pagamento img{
+    margin: 32px 0 24px;
+}
+
+#pagamento span{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: white;
+    display: block;
+    margin-bottom: 12px;
+}
+
+body.product-page #como-funciona{
+    background-color: black;
+}
+
+#ganhadores{
+    padding: 55px 0;
+}
+
+#ganhadores .card{
+    background-color: #272727;
+    border: none;
+}
+
+#ganhadores img{
+    margin-bottom: 24px;
+}
+
+#ganhadores span.name{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Lato";
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#ganhadores span.description{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Lato";
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#faq{
+    padding: 55px 0;
+}
+
+#faq li.q{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: 600;
+}
+
+#faq li.a {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: 400;
+    display: none;
+    margin-top: 10px;
+}
+
+
+#faq ul, #faq li {
+    list-style: none;
+}
+
+#faq .question{
+    border-bottom: 2px solid white;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+#faq h3{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+header{
+    background-color: #000000;
+}
+
+header li a{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Raleway";
+    color: white;
+    margin: 8px;
+    padding: 0;
+}
+
+
+
+@media (min-width: 991.98px){
+    div#navbarNav{
+        position: absolute;
+        right: 0;
+    }
+    header nav.navbar{
+        width: 100%;
+    }
+    header .navbar-nav{
+        flex-direction: row;
+    }
+    nav.navbar-collapse.bs-navbar-collapse {
+        float: left;
+        width: inherit;
+        display: contents;
+    }
+}
+
+@media( max-width: 991.98px){
+    #info-produto .prices button{
+        text-align: center;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    #fichas button{
+        margin: 0 auto 10px;
+        display: block;
+    }
+
+    #como-funciona .col-12.col-lg-4 .card{
+        margin-bottom: 10px;
+    }
+
+    #sorteios img, #como-funciona img{
+        margin: 0 auto;
+    }
+
+    i.fas.fa-plus{
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px!important;
+    }
+}
+
+nav.navbar.navbar-expand-lg {
+    max-width: 100%;
+    width: 100%;
+}
+
+button.navbar-toggler {
+    right: 0;
+    top: 20px;
+    position: absolute;
+    border: 1px solid white;
+}
+
+i.fas.fa-bars{
+    color: white;
+}
+
+.fixed-whatsapp img{
+    position: fixed;
+    z-index: 99999;
+    right: 10px;
+    bottom: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
